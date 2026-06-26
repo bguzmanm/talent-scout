@@ -1,0 +1,6 @@
+[submodule "talentscout-backend"]
+	path = talentscout-backend
+	url = https://github.com/bguzmanm/talentscout-backend.git
+[submodule "talentscout-front"]
+	path = talentscout-front
+	url = https://github.com/bguzmanm/talentscout-front.git
