@@ -33,9 +33,8 @@ Work in `talentscout-backend/` or `talentscout-front/` — no root scripts.
 - **Swagger** at `/api` (auto-generated from decorators).
 - **ValidationPipe** global (whitelist, forbidNonWhitelisted, transform).
 - **Database** requires PostgreSQL; `docker compose up -d` (or `bun run docker:up`) starts it.
-- **Seed data has a merge conflict** in `src/db/seed.ts` — two implementations are separated by `<<<<<<< HEAD` / `=======` / `>>>>>>> 369bb5a`. Resolve before running `bun run db:seed`.
-- **No auth/guards** implemented yet — roles table exists but is not enforced.
-- Most controllers use `any` for DTOs (only `applicants` has `class-validator` + Swagger DTOs).
+- **Auth/guards** implemented: JWT + RBAC via roles; ownership validation en applicants, jobs, employers.
+- **Todos los módulos** tienen DTOs con `class-validator` + Swagger.
 - Module pattern: `Module -> Controller -> Service -> Repository`.
 - `.env` is committed with dev creds (`postgres/postgres`).
 
