@@ -15,7 +15,7 @@ talent-scout/              (repositorio raíz)
 ## Requisitos
 
 - [Bun](https://bun.sh) 1.2+
-- [Docker](https://docker.com) (para la base de datos)
+- [Docker](https://docker.com) (para la base de datos postgres)
 - Node.js 22+
 
 ## Primeros pasos
