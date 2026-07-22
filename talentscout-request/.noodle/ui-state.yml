@@ -1,0 +1,13 @@
+lastRequest: applicants/
+login:
+  request: body
+  response: body
+expanded_folders:
+  - jobs
+  - applicants
+jobs/my-jobs:
+  request: auth
+  response: body
+applicants/get-all-applicants:
+  request: auth
+  response: body

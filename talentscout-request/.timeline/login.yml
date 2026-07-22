@@ -1,0 +1,376 @@
+- timestamp: 1784680839311
+  envName: development
+  request:
+    id: login
+    name: login
+    method: POST
+    url: http://localhost:3001/auth/login
+    headers: {}
+    params: []
+    body: '{ "email": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  response:
+    status: 200
+    statusText: OK
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '393'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:40:39 GMT
+      etag: W/"189-95j2e8Wvj8KLO+e6hOTTh1ubo/g"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '5'
+      x-ratelimit-remaining: '4'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"data":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkB0ZWNoc29sdXRpb25zLmNvbSIsImZ1bGxOYW1lIjoiSnVhbiBQw6lyZXoiLCJyb2xlIjoiRU1QTE9ZRVIiLCJpYXQiOjE3ODQ2ODA4MzksImV4cCI6MTc4NDc2NzIzOX0.7UiZIPOtjVLfyDf_i49V0c3iZL0ejxi7si_lV4T1B0g","userId":2,"fullName":"Juan
+      Pérez","email":"juan@techsolutions.com","role":"EMPLOYER"},"timestamp":"2026-07-22T00:40:39.308Z"}
+    timeMs: 104.69508399999995
+    size: 393
+- timestamp: 1784680562114
+  envName: development
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "email": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: 'requests.substitute: unresolved variable "API_URL" in url'
+- timestamp: 1784679994111
+  envName: development
+  request:
+    id: login
+    name: login
+    method: POST
+    url: http://localhost:3001/auth/login
+    headers: {}
+    params: []
+    body: '{ "email": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  response:
+    status: 401
+    statusText: Unauthorized
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '103'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:26:34 GMT
+      etag: W/"67-iSQc1/NvGq7TJdaxYrCRfeyQFoM"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '5'
+      x-ratelimit-remaining: '3'
+      x-ratelimit-reset: '59'
+      x-xss-protection: '0'
+    body: >-
+      {"statusCode":401,"message":"Unauthorized","timestamp":"2026-07-22T00:26:34.110Z","path":"/auth/login"}
+    timeMs: 3.4269999999087304
+    size: 103
+- timestamp: 1784679992801
+  envName: development
+  request:
+    id: login
+    name: login
+    method: POST
+    url: http://localhost:3001/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  response:
+    status: 401
+    statusText: Unauthorized
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '103'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:26:32 GMT
+      etag: W/"67-g1O8ymbtgjIf+ODh9W7Z9/CBbUQ"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '5'
+      x-ratelimit-remaining: '4'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"statusCode":401,"message":"Unauthorized","timestamp":"2026-07-22T00:26:32.798Z","path":"/auth/login"}
+    timeMs: 9.258750000037253
+    size: 103
+- timestamp: 1784679561843
+  envName: development
+  request:
+    id: login
+    name: login
+    method: POST
+    url: http://localhost:3001/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  response:
+    status: 401
+    statusText: Unauthorized
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '103'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:19:21 GMT
+      etag: W/"67-sJEE70fjYk6cZkneXnuu+Y/WkDk"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '5'
+      x-ratelimit-remaining: '4'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"statusCode":401,"message":"Unauthorized","timestamp":"2026-07-22T00:19:21.840Z","path":"/auth/login"}
+    timeMs: 24.369542000000365
+    size: 103
+- timestamp: 1784679528693
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_HOST/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_HOST/auth/login": "$API_HOST/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679527437
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_HOST/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_HOST/auth/login": "$API_HOST/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679508757
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679441646
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679438471
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679437491
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679414130
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679413072
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679356535
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679353416
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.
+- timestamp: 1784679296594
+  request:
+    id: login
+    name: login
+    method: POST
+    url: $API_URL/auth/login
+    headers: {}
+    params: []
+    body: '{ "username": "juan@techsolutions.com", "password": "demo123456" }'
+    auth:
+      type: none
+  error:
+    message: >-
+      requests.send: invalid url "$API_URL/auth/login": "$API_URL/auth/login"
+      cannot be parsed as a URL.

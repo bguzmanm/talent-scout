@@ -1,0 +1,116 @@
+- timestamp: 1784683004065
+  envName: development
+  request:
+    id: applicants/get-one-job
+    name: get one job
+    method: GET
+    url: http://localhost:3001/jobs/1
+    headers: {}
+    params: []
+    body: ''
+    auth:
+      type: none
+  response:
+    status: 200
+    statusText: OK
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '1466'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 01:16:44 GMT
+      etag: W/"5ba-ewtgF6d7rnfy1bev+BJ9sRbFTmc"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '100'
+      x-ratelimit-remaining: '98'
+      x-ratelimit-reset: '54'
+      x-xss-protection: '0'
+    body: >-
+      {"data":{"id":1,"employerId":1,"title":"Senior Backend
+      Developer","description":"Buscamos un desarrollador backend senior con
+      experiencia en Node.js y PostgreSQL para unirse a nuestro equipo de
+      plataforma.","requirements":"Node.js, TypeScript, PostgreSQL, AWS, Docker,
+      5+ años de experiencia","responsibilities":"Diseñar y desarrollar APIs
+      REST, optimizar base de datos, liderar equipo técnico","location":"San
+      Francisco,
+      CA","salaryMin":120000,"salaryMax":160000,"category":"Backend","workType":"HYBRID","contractType":"FULL_TIME","experienceLevel":"SENIOR","currency":"USD","status":"PUBLISHED","vacancies":1,"createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z","employers":{"id":1,"legalName":"Tech
+      Solutions Inc.","fantasyName":"TechSolutions","description":"En
+      **TechSolutions** llevamos más de 15 años transformando industrias a
+      través de la tecnología. Nuestro equipo de +200 ingenieros trabaja en
+      proyectos que van desde plataformas de e-commerce hasta sistemas de
+      inteligencia artificial para logística.\n\nCreemos en el desarrollo
+      profesional continuo y ofrecemos programas de mentoría, presupuesto anual
+      para conferencias y la posibilidad de rotar entre equipos y
+      tecnologías.","address":"123 Tech Street, Silicon
+      Valley","country":"Estados
+      Unidos","logoStorageKey":null,"createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},"logoUrl":null,"questions":[]},"timestamp":"2026-07-22T01:16:44.064Z"}
+    timeMs: 25.986207999754697
+    size: 1466
+- timestamp: 1784682997668
+  envName: development
+  request:
+    id: applicants/get-one-job
+    name: get one job
+    method: GET
+    url: http://localhost:3001/jobs/{id}
+    headers: {}
+    params: []
+    body: ''
+    auth:
+      type: none
+  response:
+    status: 400
+    statusText: Bad Request
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '140'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 01:16:37 GMT
+      etag: W/"8c-NNnR8zOaR/3sVb46W72YxFIznl8"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '100'
+      x-ratelimit-remaining: '99'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"statusCode":400,"message":"Validation failed (numeric string is
+      expected)","timestamp":"2026-07-22T01:16:37.667Z","path":"/jobs/%7Bid%7D"}
+    timeMs: 12.95049999980256
+    size: 140

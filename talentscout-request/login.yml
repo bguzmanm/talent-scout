@@ -1,0 +1,8 @@
+name: login
+method: POST
+url: $API_HOST/auth/login
+timeout: 0
+followRedirects: true
+maxRedirects: 5
+body: '{ "email": "juan@techsolutions.com", "password": "demo123456" }'
+body_type: json

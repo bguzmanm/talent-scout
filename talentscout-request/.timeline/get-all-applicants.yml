@@ -1,0 +1,192 @@
+- timestamp: 1784681164545
+  envName: development
+  request:
+    id: get-all-applicants
+    name: get all applicants
+    method: GET
+    url: http://localhost:3001/applicants
+    headers: {}
+    params: []
+    body: ''
+    auth:
+      type: bearer
+      token: >-
+        eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkB0ZWNoc29sdXRpb25zLmNvbSIsImZ1bGxOYW1lIjoiSnVhbiBQw6lyZXoiLCJyb2xlIjoiRU1QTE9ZRVIiLCJpYXQiOjE3ODQ2ODA4MzksImV4cCI6MTc4NDc2NzIzOX0.7UiZIPOtjVLfyDf_i49V0c3iZL0ejxi7si_lV4T1B0g
+  response:
+    status: 200
+    statusText: OK
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '4150'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:46:04 GMT
+      etag: W/"1036-jy3Y3TcC9yS4pzinB9/i1ewqEwg"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '100'
+      x-ratelimit-remaining: '99'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"data":{"items":[{"id":1,"userId":7,"fullName":"Roberto
+      Martínez","email":"roberto.martinez@email.com","phone":"+1-555-0123","abstract":"Ingeniero
+      full-stack con 5 años de experiencia en desarrollo
+      web","linkedinUrl":"https://linkedin.com/in/robertomartinez","yearsOfExperience":5,"professionalProfile":"He
+      trabajado como desarrollador full-stack en startups tecnológicas,
+      liderando equipos de hasta 5 personas. Experiencia en arquitectura de
+      microservicios y despliegue en la nube.","education":"Ingeniería Civil en
+      Computación, Universidad de Chile (2015 -
+      2020)","englishLevel":"Avanzado","skills":["JavaScript","TypeScript","React","Node.js","PostgreSQL","AWS"],"photoStorageKey":null,"status":"PENDING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":2,"userId":8,"fullName":"Alicia
+      Johnson","email":"alicia.johnson@email.com","phone":"+1-555-0456","abstract":"Diseñadora
+      UX/UI con experiencia en startups y empresas Fortune
+      500","linkedinUrl":"https://linkedin.com/in/aliciajohnson","yearsOfExperience":7,"professionalProfile":"Diseñadora
+      UX/UI con más de 7 años creando experiencias digitales para productos B2B
+      y B2C. Especializada en design systems y investigación de
+      usuarios.","education":"Diseño Gráfico, Universidad de los Andes (2012 -
+      2016)\nDiplomado en UX Research, Pontificia Universidad Católica
+      (2018)","englishLevel":"Fluido","skills":["Figma","Design Systems","UX
+      Research","Prototyping"],"photoStorageKey":null,"status":"SCREENING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":3,"userId":9,"fullName":"Laura
+      Fernández","email":"laura.fernandez@email.com","phone":"+52-555-1234","abstract":"Ingeniera
+      DevOps con experiencia en infraestructura cloud y
+      automatización","linkedinUrl":"https://linkedin.com/in/laurafernandez","yearsOfExperience":6,"professionalProfile":"Ingeniera
+      DevOps con 6 años de experiencia en infraestructura cloud, CI/CD y
+      contenedores. Apasionada por la automatización y la cultura DevOps, he
+      liderado la migración a la nube de diversas
+      empresas.","education":"Ingeniería en Sistemas, Universidad Nacional
+      Autónoma de México (2014 - 2019)\nCertificación AWS Solutions Architect
+      (2021)","englishLevel":"Avanzado","skills":["AWS","Docker","Kubernetes","Terraform","CI/CD","Python"],"photoStorageKey":null,"status":"INTERVIEWING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":4,"userId":10,"fullName":"Diego
+      Ramírez","email":"diego.ramirez@email.com","phone":"+56-9-8765-4321","abstract":"Desarrollador
+      mobile con experiencia en React Native y
+      Flutter","linkedinUrl":"https://linkedin.com/in/diegoramirez","yearsOfExperience":3,"professionalProfile":"Desarrollador
+      mobile con 3 años de experiencia creando aplicaciones nativas y
+      multiplataforma. Enfocado en entregar experiencias de usuario fluidas y
+      código limpio.","education":"Analista Programador, Duoc UC (2018 -
+      2021)","englishLevel":"Intermedio","skills":["React
+      Native","Flutter","TypeScript","Firebase","Swift"],"photoStorageKey":null,"status":"PENDING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":5,"userId":11,"fullName":"Sofia
+      Torres","email":"sofia.torres@email.com","phone":"+1-555-7890","abstract":"Científica
+      de datos especializada en machine learning y análisis
+      predictivo","linkedinUrl":"https://linkedin.com/in/sofiatorres","yearsOfExperience":4,"professionalProfile":"Científica
+      de datos con 4 años de experiencia en modelos predictivos, NLP y
+      visualización de datos. He trabajado en equipos multidisciplinarios
+      generando insights accionables para la toma de
+      decisiones.","education":"Licenciatura en Matemáticas, Universidad de
+      Buenos Aires (2015 - 2020)\nMáster en Data Science, Universidad
+      Politécnica de Madrid (2021 -
+      2022)","englishLevel":"Avanzado","skills":["Python","TensorFlow","SQL","Tableau","Machine
+      Learning","NLP"],"photoStorageKey":null,"status":"SCREENING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"}],"meta":{"page":1,"limit":20,"total":5,"totalPages":1}},"timestamp":"2026-07-22T00:46:04.541Z"}
+    timeMs: 29.839082999969833
+    size: 4150
+- timestamp: 1784680923663
+  envName: development
+  request:
+    id: get-all-applicants
+    name: get all applicants
+    method: GET
+    url: http://localhost:3001/applicants
+    headers: {}
+    params: []
+    body: ''
+    auth:
+      type: bearer
+      token: >-
+        eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkB0ZWNoc29sdXRpb25zLmNvbSIsImZ1bGxOYW1lIjoiSnVhbiBQw6lyZXoiLCJyb2xlIjoiRU1QTE9ZRVIiLCJpYXQiOjE3ODQ2ODA4MzksImV4cCI6MTc4NDc2NzIzOX0.7UiZIPOtjVLfyDf_i49V0c3iZL0ejxi7si_lV4T1B0g
+  response:
+    status: 200
+    statusText: OK
+    headers:
+      access-control-allow-credentials: 'true'
+      connection: keep-alive
+      content-length: '4150'
+      content-security-policy: >-
+        default-src 'self';script-src 'self' 'unsafe-inline'
+        'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self'
+        data:;connect-src 'self' http://localhost:3000
+        http://localhost:3001;font-src 'self';base-uri 'self';form-action
+        'self';frame-ancestors 'self';object-src 'none';script-src-attr
+        'none';upgrade-insecure-requests
+      content-type: application/json; charset=utf-8
+      cross-origin-opener-policy: same-origin
+      cross-origin-resource-policy: cross-origin
+      date: Wed, 22 Jul 2026 00:42:03 GMT
+      etag: W/"1036-uDDg9IXHjiy6CDyEIgpdhwYM050"
+      keep-alive: timeout=5
+      origin-agent-cluster: '?1'
+      referrer-policy: no-referrer
+      strict-transport-security: max-age=31536000; includeSubDomains
+      vary: Origin
+      x-content-type-options: nosniff
+      x-dns-prefetch-control: 'off'
+      x-download-options: noopen
+      x-frame-options: SAMEORIGIN
+      x-permitted-cross-domain-policies: none
+      x-ratelimit-limit: '100'
+      x-ratelimit-remaining: '99'
+      x-ratelimit-reset: '60'
+      x-xss-protection: '0'
+    body: >-
+      {"data":{"items":[{"id":1,"userId":7,"fullName":"Roberto
+      Martínez","email":"roberto.martinez@email.com","phone":"+1-555-0123","abstract":"Ingeniero
+      full-stack con 5 años de experiencia en desarrollo
+      web","linkedinUrl":"https://linkedin.com/in/robertomartinez","yearsOfExperience":5,"professionalProfile":"He
+      trabajado como desarrollador full-stack en startups tecnológicas,
+      liderando equipos de hasta 5 personas. Experiencia en arquitectura de
+      microservicios y despliegue en la nube.","education":"Ingeniería Civil en
+      Computación, Universidad de Chile (2015 -
+      2020)","englishLevel":"Avanzado","skills":["JavaScript","TypeScript","React","Node.js","PostgreSQL","AWS"],"photoStorageKey":null,"status":"PENDING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":2,"userId":8,"fullName":"Alicia
+      Johnson","email":"alicia.johnson@email.com","phone":"+1-555-0456","abstract":"Diseñadora
+      UX/UI con experiencia en startups y empresas Fortune
+      500","linkedinUrl":"https://linkedin.com/in/aliciajohnson","yearsOfExperience":7,"professionalProfile":"Diseñadora
+      UX/UI con más de 7 años creando experiencias digitales para productos B2B
+      y B2C. Especializada en design systems y investigación de
+      usuarios.","education":"Diseño Gráfico, Universidad de los Andes (2012 -
+      2016)\nDiplomado en UX Research, Pontificia Universidad Católica
+      (2018)","englishLevel":"Fluido","skills":["Figma","Design Systems","UX
+      Research","Prototyping"],"photoStorageKey":null,"status":"SCREENING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":3,"userId":9,"fullName":"Laura
+      Fernández","email":"laura.fernandez@email.com","phone":"+52-555-1234","abstract":"Ingeniera
+      DevOps con experiencia en infraestructura cloud y
+      automatización","linkedinUrl":"https://linkedin.com/in/laurafernandez","yearsOfExperience":6,"professionalProfile":"Ingeniera
+      DevOps con 6 años de experiencia en infraestructura cloud, CI/CD y
+      contenedores. Apasionada por la automatización y la cultura DevOps, he
+      liderado la migración a la nube de diversas
+      empresas.","education":"Ingeniería en Sistemas, Universidad Nacional
+      Autónoma de México (2014 - 2019)\nCertificación AWS Solutions Architect
+      (2021)","englishLevel":"Avanzado","skills":["AWS","Docker","Kubernetes","Terraform","CI/CD","Python"],"photoStorageKey":null,"status":"INTERVIEWING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":4,"userId":10,"fullName":"Diego
+      Ramírez","email":"diego.ramirez@email.com","phone":"+56-9-8765-4321","abstract":"Desarrollador
+      mobile con experiencia en React Native y
+      Flutter","linkedinUrl":"https://linkedin.com/in/diegoramirez","yearsOfExperience":3,"professionalProfile":"Desarrollador
+      mobile con 3 años de experiencia creando aplicaciones nativas y
+      multiplataforma. Enfocado en entregar experiencias de usuario fluidas y
+      código limpio.","education":"Analista Programador, Duoc UC (2018 -
+      2021)","englishLevel":"Intermedio","skills":["React
+      Native","Flutter","TypeScript","Firebase","Swift"],"photoStorageKey":null,"status":"PENDING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"},{"id":5,"userId":11,"fullName":"Sofia
+      Torres","email":"sofia.torres@email.com","phone":"+1-555-7890","abstract":"Científica
+      de datos especializada en machine learning y análisis
+      predictivo","linkedinUrl":"https://linkedin.com/in/sofiatorres","yearsOfExperience":4,"professionalProfile":"Científica
+      de datos con 4 años de experiencia en modelos predictivos, NLP y
+      visualización de datos. He trabajado en equipos multidisciplinarios
+      generando insights accionables para la toma de
+      decisiones.","education":"Licenciatura en Matemáticas, Universidad de
+      Buenos Aires (2015 - 2020)\nMáster en Data Science, Universidad
+      Politécnica de Madrid (2021 -
+      2022)","englishLevel":"Avanzado","skills":["Python","TensorFlow","SQL","Tableau","Machine
+      Learning","NLP"],"photoStorageKey":null,"status":"SCREENING","createdAt":"2026-07-22T00:26:27.974Z","updatedAt":"2026-07-22T00:26:27.974Z"}],"meta":{"page":1,"limit":20,"total":5,"totalPages":1}},"timestamp":"2026-07-22T00:42:03.662Z"}
+    timeMs: 39.624416999999085
+    size: 4150

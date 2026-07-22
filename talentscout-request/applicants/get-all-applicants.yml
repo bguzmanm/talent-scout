@@ -1,0 +1,8 @@
+name: get all applicants
+method: GET
+url: $API_HOST/applicants
+timeout: 0
+followRedirects: true
+maxRedirects: 5
+body: ''
+body_type: none

@@ -1,0 +1,8 @@
+name: get one job
+method: GET
+url: $API_HOST/jobs/{id}
+timeout: 0
+followRedirects: true
+maxRedirects: 5
+body: ''
+body_type: none

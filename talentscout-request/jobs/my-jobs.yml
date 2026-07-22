@@ -1,0 +1,11 @@
+name: my jobs
+method: GET
+url: $API_HOST/jobs/my
+timeout: 0
+followRedirects: true
+maxRedirects: 5
+body: ''
+body_type: none
+auth:
+  type: bearer
+  token: $TOKEN
